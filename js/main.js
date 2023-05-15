@@ -12,7 +12,8 @@ const soni = document.querySelector(".korzinka-miqdori");
 
 korBtn.addEventListener("click", (e) => {
   e.preventDefault();
-  window.location.replace("http://127.0.0.1:5500/korzinka.html");
+  // window.location.replace("http://127.0.0.1:5500/korzinka.html");
+  location.pathname = "../korzinka.html";
 });
 
 const render = (el) => {
